@@ -1,6 +1,6 @@
 # Airport Finder
 
-Airport finder is a web application that allows you to search among thousands of airports around the world and track thousands of flights in real time. 
+Airport finder is a web application that allows you to search among hundreds of airports around the world and track thousands of flights in real time. 
 
 ## How to build
 - Enter your API KEYS in the [config.js](./src/js/config.js) file
