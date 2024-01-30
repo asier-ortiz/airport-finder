@@ -1,0 +1,48 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: $gradient;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn--round {
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 50%;
+
+  &:hover {
+    transform: scale(1.07);
+  }
+
+  svg {
+    height: 2.2rem;
+    width: 2.2rem;
+    fill: #fff;
+  }
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  &--top {
+    top: 50px;
+  }
+
+  svg {
+    height: 6rem;
+    width: 6rem;
+    fill: $color-primary;
+    animation: rotate 2s infinite linear;
+  }
+}

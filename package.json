@@ -1,0 +1,23 @@
+{
+  "name": "airportfinder",
+  "version": "1.0.0",
+  "description": "Airports application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Asier Ortiz",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "core-js": "^3.20.1",
+    "leaflet": "^1.7.1",
+    "leaflet-rotatedmarker": "^0.2.0",
+    "polyline-encoded": "^0.0.9",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}

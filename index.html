@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,600,700"/>
+    <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="src/sass/main.scss"/>
+    <script type='module' defer src="src/js/controller/controller.js"></script>
+    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon"/>
+    <title>Airport Finder</title>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <svg class="header__logo">
+            <use xlink:href="src/img/icons.svg#logo"></use>
+        </svg>
+        <div class="header__actions-wrapper">
+            <form class="search" autocomplete="off">
+                <input type="text" class="search__field"
+                       placeholder="Busca un aeropuerto (IATA, ICAO, nombre o ciudad)"/>
+            </form>
+        </div>
+    </header>
+    <aside class="search-results">
+    </aside>
+    <main>
+        <article class="airport">
+            <div class="welcome-msg">
+                <p>
+                    <span class="orange">Airport Finder</span> busca entre cientos de <span
+                        class="gray">aeropuertos</span> y te
+                    permite seguir miles de <span class="gray">vuelos en tiempo real</span> .
+                </p>
+            </div>
+        </article>
+    </main>
+    <footer class="footer">
+        <b>*Las horas de llegada/salida se muestran en la zona horaria de sus respectivos aeropuertos</b>
+    </footer>
+</div>
+</body>
+</html>

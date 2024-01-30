@@ -1,0 +1,8 @@
+.footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: $color-grey-light-1;
+}

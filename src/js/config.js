@@ -1,0 +1,10 @@
+export const AIRLABS_API_URL = 'https://airlabs.co/api/v9/';
+export const FLIGTHPLANS_API_URL = 'https://api.flightplandatabase.com/';
+export const OPENWEATHER_API_URL = 'http://api.openweathermap.org/data/2.5/';
+export const AIRLABS_KEY = '<YOUR_KEY>';
+export const OPENWEATHER_KEY = '<YOUR_KEY>';
+export const MAPBOX_KEY = '<YOUR_KEY>';
+export const TIMEOUT_SEC = 30 * 1_000;
+export const WEATHER_UPDATE_INTERVAL_SEC = 600 * 1_000; // 10 min
+export const FLIGHTS_UPDATE_INTERVAL_SEC = 300 * 1_000; // 5 min
+export const FLIGHT_TRACK_UPDATE_INTERVAL_SEC = 3 * 1_000; // 3 sec
