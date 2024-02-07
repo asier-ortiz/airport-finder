@@ -12,3 +12,4 @@ Airport finder is a web application that allows you to search among hundreds of 
 ## Screenshots
 
 <img src="screenshots/screenshot-1.png" width="500"> <img src="screenshots/screenshot-2.png" width="500">
+
